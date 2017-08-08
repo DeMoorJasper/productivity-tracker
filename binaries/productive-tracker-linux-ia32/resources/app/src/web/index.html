@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <title>Productivity tracker</title>
+</head>
+<body>
+    <header>
+        <h1>Productivity tracker</h1>
+        <h2>Simple tool to track all hours you've been productive on something</h2>
+    </header>
+    <main>
+        <section id="counters">
+
+        </section>
+        <form id="addItem" class="addItem">
+            <h3>Add an item</h3>
+            <label for="name">Name</label><input type="text" id="name"></input>
+            <label for="count">Hours spent</label><input type="number" id="count"></input>
+            <input type="submit" value="ADD"></input>
+        </form>
+    </main>
+
+    <!-- Insert this line above script imports  -->
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+    <script language="JavaScript" type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="assets/js/script.js"></script>
+    
+    <!-- Insert this line after script imports -->
+    <script>if (window.module) module = window.module;</script>
+</body>
+</html>

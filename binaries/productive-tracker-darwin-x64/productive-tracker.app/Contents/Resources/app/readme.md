@@ -1,0 +1,15 @@
+# Productivity tracker
+A simple tool that i made to track the amount of hours you spent on a certain task positif or negative.
+
+# LICENSE
+MIT
+
+# SCRIPTS
+```npm install``` install dependancies
+
+## START
+```npm start``` start the environment
+
+# BUILD
+```npm run build``` build the source codes into a package
+Or use the prebuild versions out of "binaries"

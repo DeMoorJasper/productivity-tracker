@@ -1,0 +1,88 @@
+@import url('./archivo-font.css');
+
+/* CONTAINERS */
+body {
+    font-family: "Archivo", sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+    background: #24292E;
+    color: #ffffff;
+}
+
+article {
+    border: 2px solid #24292E;
+    margin: 25px;
+    padding: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+form.addItem {
+    border: 2px solid #24292E;
+    padding: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px;
+}
+
+/* ELEMENTS */
+h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+h4 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 20px;
+}
+
+p.hours {
+    font-size: 2.5rem;
+}
+
+form.addItem input,
+form.addItem label {
+    display: block;
+    width: 100%;
+}
+
+form.addItem input {
+    margin-bottom: 20px;
+}
+
+form.addItem label {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+form.addItem input[type='submit'] {
+    border: 2px solid #24292E;
+    background: #ffffff;
+    padding: 10px;
+}
+
+form.addItem input[type='submit']:hover {
+    background: #24292E;
+    color: #ffffff;
+}

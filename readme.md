@@ -11,6 +11,5 @@ MIT
 ```npm start``` start the environment
 
 # BUILD
-### BEWARE i'm currently experiencing bugs with the build versions
 ```npm run build``` build the source codes into a package
 Or use the prebuild versions out of "binaries"
