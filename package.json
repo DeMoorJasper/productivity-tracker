@@ -1,0 +1,11 @@
+{
+  "name": "productive-meter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ./bin/electron"
+  },
+  "author": "",
+  "license": "ISC"
+}
