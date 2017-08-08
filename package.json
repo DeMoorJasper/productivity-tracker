@@ -1,11 +1,16 @@
 {
-  "name": "productive-meter",
+  "name": "productive-tracker",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "electron ./bin/electron"
+    "start": "electron ./bin/electron",
+    "build": "electron-packager . productive-tracker --out=binaries --all --overwrite --asar --no-prune"
   },
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "electron-packager": "8.7.2",
+    "electron": "1.6.11"
+  }
 }
